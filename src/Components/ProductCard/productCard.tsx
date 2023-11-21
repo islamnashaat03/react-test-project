@@ -1,16 +1,18 @@
 export type ProductCardProps = {
-  imag: string;
+  imageUrl: string;
   name: string;
   category: string;
   brand: string;
   priceBeforeSale?: number;
   price: number;
   discountPercentage?: number;
+  id: number;
 };
 export default function productCard({
+  // id,
   name,
   category,
-  // imag,
+  // imageUrl,
   brand,
   discountPercentage,
   price,
@@ -21,7 +23,7 @@ export default function productCard({
       <li className="product-card">
         <figure className="image-wrap">
           <img
-            src="{imag}"
+            src="{{imageUrl}}"
             alt=""
           />
         </figure>
