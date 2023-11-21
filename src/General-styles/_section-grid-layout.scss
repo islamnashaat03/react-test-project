@@ -1,0 +1,4 @@
+.wrapper-grid-layout {
+  @include displayGrid(245px, $gap:25px);
+  padding-block: 50px;
+}

@@ -1,0 +1,13 @@
+/*
+import all styles of project here to compile them. 
+*/
+
+// ===============================IMPORT RESRET AND GLOBAL STYLES=========================================== 
+@import './abstract/variables'; // import abstract variables from abstract 
+@import './abstract/mixins'; // import abstract mixins from abstract
+@import './abstract/generic'; // import abstract generic from abstract 
+
+// ===============================IMPORT GLOBAL CRESUABLE COMPONENTS======================================= 
+
+@import '../Components/ProductCard/ProductCard'; // import product cards from product cards 
+@import '../General-styles/section-grid-layout'; // import section grid layout from section layout 
